@@ -15,7 +15,7 @@ public class UbayTimForkFork {
     public static void main(String[] args) {
         java.util.Scanner scTemp = new java.util.Scanner(System.in);
         boolean isLoggedIn = false;
-        int[] kundennummer = { 11111, 22222, 33333, 44444, 55555, 66666, 77777, 88888, 99999 };
+        int[] kundennummer = { 11111, 22222, 33333, 44444, 55555, 66666, 77777, 88888, 99999, };
         int kdnummerInput = 0;
         int neueKundennummer = 0;
         Random ran = new Random();
