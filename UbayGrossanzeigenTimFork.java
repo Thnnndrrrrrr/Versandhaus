@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class UbayGrossanzeigenTimFork {
     // Klassenvariablen --> Zugriff aus jeder Methode heraus möglich
+    // TODO Github einrichten
     static final int PRODUKTNUMMER_MILCH = 1;
     static final float MEHRWERTSTEUERSATZ_MILCH = 0.07f;
     static final float PREIS_MILCH = 2.59f;
@@ -20,7 +21,7 @@ public class UbayGrossanzeigenTimFork {
         int neueKundennummer = 0;
         Random ran = new Random();
 
-        willkommensbildschirm();
+        willkommensBildschirm();
         waitEnter("Einloggen? Mit Enter bestätigen", scTemp);
 
         while (!isLoggedIn) {
@@ -96,9 +97,9 @@ public class UbayGrossanzeigenTimFork {
     }
 
     /**
-     * Zeigt den Willkommensbildschirm
+     * Zeigt den willkommensBildschirm
      */
-    public static void willkommensbildschirm() {
+    public static void willkommensBildschirm() {
         System.out.println(
                 "\n----------------------------------------\n    Willkommen bei Ubay Großanzeigen!\n----------------------------------------\n                    n\n                    n\n  \\nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn/\n   \\                                /\n    \\                              /\n     \\                            /\n      \\--------------------------/\n----------------------------------------");
         // 20 Striche --------------------
