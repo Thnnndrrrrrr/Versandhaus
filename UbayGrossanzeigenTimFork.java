@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class UbayGrossanzeigenTimFork {
     // Klassenvariablen --> Zugriff aus jeder Methode heraus möglich
-    // TODO Github einrichten
     static final int PRODUKTNUMMER_MILCH = 1;
     static final float MEHRWERTSTEUERSATZ_MILCH = 0.07f;
     static final float PREIS_MILCH = 2.59f;
