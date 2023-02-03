@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch UbayGrossanzeigenTimFork",
+            "request": "launch",
+            "mainClass": "UbayGrossanzeigenTimFork",
+            "projectName": "Versandhaus_4be32211"
+        },
+        {
+            "type": "java",
+            "name": "Launch UbayGrossanzeigen",
+            "request": "launch",
+            "mainClass": "UbayGrossanzeigen",
+            "projectName": "Versandhaus_4be32211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayUebungen",
+            "request": "launch",
+            "mainClass": "ArrayUebungen",
+            "projectName": "Versandhaus_4be32211"
+        },
+        {
+            "type": "java",
+            "name": "Launch ApplicationW2",
+            "request": "launch",
+            "mainClass": "ApplicationW2",
+            "projectName": "Versandhaus_4be32211"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Application",
+            "request": "launch",
+            "mainClass": "Application",
+            "projectName": "Versandhaus_4be32211"
+        },
+        {
+            "type": "java",
+            "name": "Launch RomanConverter",
+            "request": "launch",
+            "mainClass": "RomanConverter",
+            "projectName": "Versandhaus_4be32211"
+        }
+    ]
+}
