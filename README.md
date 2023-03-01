@@ -1,3 +1,3 @@
 # Versandhaus 
 
-Fortschritt bis Woche 4, inkulisve Update nach Gespräch mit Domenik.
+Platz für Fortschritt im Projekt für effektiveres Zusammenarbeiten.
