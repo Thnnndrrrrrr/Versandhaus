@@ -1,3 +1,3 @@
 # Versandhaus
 
-Versandhaus Projekt JavaG1GN
+Versandhaus Projekt Stand Woche 4 nach Gespräch mit Domenik
