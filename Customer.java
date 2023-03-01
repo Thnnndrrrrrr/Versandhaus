@@ -7,7 +7,7 @@ public class Customer {
 	private int customerID;
 	private String name;
 	private String firstname;
-	private String street;
+	private String street;semfol
 	private String housenumber;
 	private String zipcode;
 	private String location;
